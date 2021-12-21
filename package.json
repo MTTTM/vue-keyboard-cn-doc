@@ -11,9 +11,5 @@
     "docs:build": "vuepress build docs"
   },
   "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "less-loader": "^10.2.0",
-    "sass-loader": "^12.4.0"
-  }
+  "license": "ISC"
 }
