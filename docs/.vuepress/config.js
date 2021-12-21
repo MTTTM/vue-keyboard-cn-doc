@@ -1,5 +1,5 @@
 module.exports = {
-  base: 'https://mtttm.github.io/vue-keyboard-cn-doc/',
+  base: '/vue-keyboard-cn-doc/',
   title: 'vue-key-board-cn',
   description: '手机端输入法模拟插件，中文输入法，英文输入法，数字输入法',
   themeConfig: {
