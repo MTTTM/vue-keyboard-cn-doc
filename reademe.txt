@@ -1,0 +1,3 @@
+* 发布  docs:build
+* 在docs/.vuepress/下找到dist 移动到docs
+* 复制dist里面的东西粘贴到更目录，提交
