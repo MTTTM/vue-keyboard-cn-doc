@@ -10,7 +10,8 @@
         style="width: 240px; position: relative; padding: 50px 10px 10px 10px"
       >
         <div class="sider-bar-wrap">
-          <Content slot-key="sider" />
+          <!-- <Content slot-key="sider" /> -->
+          <Sidebar />
         </div>
       </div>
       <div style="pading: 0 20px; flex: 1" class="flex-content">
@@ -31,6 +32,7 @@
           "
         />
       </div>
+      <a class="backHome" href="/vue-keyboard-cn-doc/guide/">H</a>
     </div>
   </div>
 </template>
@@ -61,5 +63,21 @@ export default {
   .side {
     display: none;
   }
+}
+.backHome {
+  border-radius: 100%;
+  overflow: hidden;
+  width: 40px;
+  height: 40px;
+  position: fixed;
+  right: 20px;
+  bottom: 40px;
+  background: #fff;
+  border: 1px solid #ccc;
+  z-index: 99999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
 }
 </style>
