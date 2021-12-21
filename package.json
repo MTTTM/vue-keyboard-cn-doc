@@ -1,0 +1,19 @@
+{
+  "name": "vue-keyboard-cn-doc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "less-loader": "^10.2.0",
+    "sass-loader": "^12.4.0"
+  }
+}
