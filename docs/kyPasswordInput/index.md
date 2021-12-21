@@ -1,4 +1,7 @@
-
+---
+layout: demoLayout
+sidebar: "none"
+---
 
 ::: slot sider
 
@@ -6,7 +9,7 @@
 
 :::
 
-::: slot content
+
 
 # PasswordInput
 带网格的输入框组件，可以用于输入密码、短信验证码等场景，通常与数字键盘组件配合使用。
@@ -20,7 +23,7 @@ Vue.use(PasswordInput);
 Vue.use(NumberKeyboard);
  
 ```
-## 代码演示（一键盘对多密码框）
+## 代码演示
 
 ### 使用数据
 
@@ -142,4 +145,3 @@ export default {
 
 ```
 
-:::

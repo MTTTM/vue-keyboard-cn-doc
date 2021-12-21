@@ -13,10 +13,10 @@
           <Content slot-key="sider" />
         </div>
       </div>
-      <div style="pading: 0 20px; flex: 1">
-        <Content slot-key="content" />
+      <div style="pading: 0 20px; flex: 1" class="flex-content">
+        <Content />
       </div>
-      <div style="width: 380px; margin-left: 5px">
+      <div style="width: 380px; margin-left: 5px" class="iframe">
         <iframe
           id="iframe"
           src="https://cn.vuejs.org"
@@ -51,5 +51,15 @@ export default {
 .sider-bar-wrap ul,
 .sider-bar-wrap li {
   list-style: none;
+}
+.flex-content {
+  height: calc(100vh - 56px);
+  overflow: auto;
+}
+@media screen and (max-width: 1024px) {
+  .iframe,
+  .side {
+    display: none;
+  }
 }
 </style>

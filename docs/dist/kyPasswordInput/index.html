@@ -8,31 +8,127 @@
     
     <meta name="description" content="手机端输入法模拟插件，中文输入法，英文输入法，数字输入法">
     
-    <link rel="preload" href="/vue-keyboard-cn-doc/assets/css/0.styles.855560df.css" as="style"><link rel="preload" href="/vue-keyboard-cn-doc/assets/js/app.7b5ec4c3.js" as="script"><link rel="preload" href="/vue-keyboard-cn-doc/assets/js/3.4a157a82.js" as="script"><link rel="preload" href="/vue-keyboard-cn-doc/assets/js/1.5aa26a91.js" as="script"><link rel="preload" href="/vue-keyboard-cn-doc/assets/js/14.b5854370.js" as="script"><link rel="prefetch" href="/vue-keyboard-cn-doc/assets/js/10.d1e5f07e.js"><link rel="prefetch" href="/vue-keyboard-cn-doc/assets/js/11.de92b6be.js"><link rel="prefetch" href="/vue-keyboard-cn-doc/assets/js/12.f66b4555.js"><link rel="prefetch" href="/vue-keyboard-cn-doc/assets/js/13.1abc8379.js"><link rel="prefetch" href="/vue-keyboard-cn-doc/assets/js/15.1076aa20.js"><link rel="prefetch" href="/vue-keyboard-cn-doc/assets/js/4.046eeadf.js"><link rel="prefetch" href="/vue-keyboard-cn-doc/assets/js/5.601b683d.js"><link rel="prefetch" href="/vue-keyboard-cn-doc/assets/js/6.f6e3d4f8.js"><link rel="prefetch" href="/vue-keyboard-cn-doc/assets/js/7.5477e169.js"><link rel="prefetch" href="/vue-keyboard-cn-doc/assets/js/8.03c677a3.js"><link rel="prefetch" href="/vue-keyboard-cn-doc/assets/js/9.5e8a1b05.js">
-    <link rel="stylesheet" href="/vue-keyboard-cn-doc/assets/css/0.styles.855560df.css">
+    <link rel="preload" href="/assets/css/0.styles.bb5bf6f9.css" as="style"><link rel="preload" href="/assets/js/app.bc9aeed4.js" as="script"><link rel="preload" href="/assets/js/4.6eb5aea4.js" as="script"><link rel="preload" href="/assets/js/1.5aa26a91.js" as="script"><link rel="preload" href="/assets/js/14.3a2e4105.js" as="script"><link rel="prefetch" href="/assets/js/10.2b18fd17.js"><link rel="prefetch" href="/assets/js/11.b5085566.js"><link rel="prefetch" href="/assets/js/12.205a810b.js"><link rel="prefetch" href="/assets/js/13.70060647.js"><link rel="prefetch" href="/assets/js/15.f601b47f.js"><link rel="prefetch" href="/assets/js/3.4a157a82.js"><link rel="prefetch" href="/assets/js/5.601b683d.js"><link rel="prefetch" href="/assets/js/6.f6e3d4f8.js"><link rel="prefetch" href="/assets/js/7.5477e169.js"><link rel="prefetch" href="/assets/js/8.03c677a3.js"><link rel="prefetch" href="/assets/js/9.8b52a424.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.bb5bf6f9.css">
   </head>
   <body>
-    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/vue-keyboard-cn-doc/" class="home-link router-link-active"><!----> <span class="site-name">vue-key-board-cn</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/vue-keyboard-cn-doc/guide/" class="nav-link">
+    <div id="app" data-server-rendered="true"><div><div style="position: fixed; left: 0; top: 0; z-index: 1000; width: 100%"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><!----> <span class="site-name">vue-key-board-cn</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/guide/" class="nav-link">
   入手
-</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Language Menu" class="dropdown-title"><span class="title">组件</span> <span class="arrow down"></span></button> <button type="button" aria-label="Language Menu" class="mobile-dropdown-title"><span class="title">组件</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/vue-keyboard-cn-doc/kyInput/" class="nav-link">
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Language Menu" class="dropdown-title"><span class="title">组件</span> <span class="arrow down"></span></button> <button type="button" aria-label="Language Menu" class="mobile-dropdown-title"><span class="title">组件</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/kyInput/" class="nav-link">
   kyInput
-</a></li><li class="dropdown-item"><!----> <a href="/vue-keyboard-cn-doc/kyKeyBoard/" class="nav-link">
+</a></li><li class="dropdown-item"><!----> <a href="/kyKeyBoard/" class="nav-link">
   kyKeyBoard
-</a></li><li class="dropdown-item"><!----> <a href="/vue-keyboard-cn-doc/kyPasswordInput/" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+</a></li><li class="dropdown-item"><!----> <a href="/kyPasswordInput/" aria-current="page" class="nav-link router-link-exact-active router-link-active">
   kyPasswordInput
-</a></li></ul></div></div><div class="nav-item"><a href="/vue-keyboard-cn-doc/rootEvents/" class="nav-link">
+</a></li></ul></div></div><div class="nav-item"><a href="/rootEvents/" class="nav-link">
   根事件
-</a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/vue-keyboard-cn-doc/guide/" class="nav-link">
-  入手
-</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Language Menu" class="dropdown-title"><span class="title">组件</span> <span class="arrow down"></span></button> <button type="button" aria-label="Language Menu" class="mobile-dropdown-title"><span class="title">组件</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/vue-keyboard-cn-doc/kyInput/" class="nav-link">
-  kyInput
-</a></li><li class="dropdown-item"><!----> <a href="/vue-keyboard-cn-doc/kyKeyBoard/" class="nav-link">
-  kyKeyBoard
-</a></li><li class="dropdown-item"><!----> <a href="/vue-keyboard-cn-doc/kyPasswordInput/" aria-current="page" class="nav-link router-link-exact-active router-link-active">
-  kyPasswordInput
-</a></li></ul></div></div><div class="nav-item"><a href="/vue-keyboard-cn-doc/rootEvents/" class="nav-link">
-  根事件
-</a></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span></span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/vue-keyboard-cn-doc/kyPasswordInput/#使用" class="sidebar-link">使用</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/vue-keyboard-cn-doc/kyPasswordInput/#代码演示-一键盘对多密码框" class="sidebar-link">代码演示（一键盘对多密码框）</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/vue-keyboard-cn-doc/kyPasswordInput/#使用数据" class="sidebar-link">使用数据</a></li><li class="sidebar-sub-header"><a href="/vue-keyboard-cn-doc/kyPasswordInput/#默认" class="sidebar-link">默认</a></li><li class="sidebar-sub-header"><a href="/vue-keyboard-cn-doc/kyPasswordInput/#限制长度" class="sidebar-link">限制长度</a></li><li class="sidebar-sub-header"><a href="/vue-keyboard-cn-doc/kyPasswordInput/#格子显示" class="sidebar-link">格子显示</a></li><li class="sidebar-sub-header"><a href="/vue-keyboard-cn-doc/kyPasswordInput/#显示明文" class="sidebar-link">显示明文</a></li></ul></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"></div> <footer class="page-edit"><!----> <!----></footer> <!----> </main></div><div class="global-ui"></div></div>
-    <script src="/vue-keyboard-cn-doc/assets/js/app.7b5ec4c3.js" defer></script><script src="/vue-keyboard-cn-doc/assets/js/3.4a157a82.js" defer></script><script src="/vue-keyboard-cn-doc/assets/js/1.5aa26a91.js" defer></script><script src="/vue-keyboard-cn-doc/assets/js/14.b5854370.js" defer></script>
+</a></div> <!----></nav></div></header></div> <div style="height: 110px"></div> <div style="display: flex"><div class="side" style="width: 240px; position: relative; padding: 50px 10px 10px 10px"><div class="sider-bar-wrap"><div class="content__sider"><p></p><div class="table-of-contents"><ul><li><a href="#使用">使用</a></li><li><a href="#代码演示">代码演示</a><ul><li><a href="#使用数据">使用数据</a></li><li><a href="#默认">默认</a></li><li><a href="#限制长度">限制长度</a></li><li><a href="#格子显示">格子显示</a></li><li><a href="#显示明文">显示明文</a></li></ul></li></ul></div><p></p></div></div></div> <div class="flex-content" style="pading: 0 20px; flex: 1"><div class="content__default"><h1 id="passwordinput"><a href="#passwordinput" class="header-anchor">#</a> PasswordInput</h1> <p>带网格的输入框组件，可以用于输入密码、短信验证码等场景，通常与数字键盘组件配合使用。</p> <h2 id="使用"><a href="#使用" class="header-anchor">#</a> 使用</h2> <div class="language-vue extra-class"><pre class="language-vue"><code>import Vue from 'vue';
+import { PasswordInput, NumberKeyboard } from 'vant';
+
+Vue.use(PasswordInput);
+Vue.use(NumberKeyboard);
+ 
+</code></pre></div><h2 id="代码演示"><a href="#代码演示" class="header-anchor">#</a> 代码演示</h2> <h3 id="使用数据"><a href="#使用数据" class="header-anchor">#</a> 使用数据</h3> <div class="language-vue extra-class"><pre class="language-vue"><code>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span><span class="token punctuation">&gt;</span></span><span class="token script"><span class="token language-javascript">
+<span class="token keyword">export</span> <span class="token keyword">default</span> <span class="token punctuation">{</span>
+  <span class="token function">data</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">return</span> <span class="token punctuation">{</span>
+      showKeyboard<span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+      values<span class="token operator">:</span> <span class="token punctuation">{</span>
+        value1<span class="token operator">:</span> <span class="token string">&quot;1234&quot;</span><span class="token punctuation">,</span>
+        value2<span class="token operator">:</span> <span class="token string">&quot;123&quot;</span><span class="token punctuation">,</span>
+        value3<span class="token operator">:</span> <span class="token string">&quot;12&quot;</span><span class="token punctuation">,</span>
+        value4<span class="token operator">:</span> <span class="token string">&quot;&quot;</span><span class="token punctuation">,</span>
+      <span class="token punctuation">}</span><span class="token punctuation">,</span>
+      currValueKey<span class="token operator">:</span> <span class="token string">&quot;&quot;</span><span class="token punctuation">,</span>
+      maxLens<span class="token operator">:</span> <span class="token punctuation">{</span>
+        value1<span class="token operator">:</span> <span class="token number">6</span><span class="token punctuation">,</span>
+        value2<span class="token operator">:</span> <span class="token number">4</span><span class="token punctuation">,</span>
+      <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token punctuation">}</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  methods<span class="token operator">:</span> <span class="token punctuation">{</span>
+    <span class="token function">showKeyboardHandler</span><span class="token punctuation">(</span><span class="token parameter">t<span class="token punctuation">,</span> key</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      <span class="token keyword">this</span><span class="token punctuation">.</span>showKeyboard <span class="token operator">=</span> t<span class="token punctuation">;</span>
+      <span class="token keyword">this</span><span class="token punctuation">.</span>currValueKey <span class="token operator">=</span> key<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token function">inputHandler</span><span class="token punctuation">(</span><span class="token parameter">str</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      <span class="token keyword">var</span> key <span class="token operator">=</span> <span class="token keyword">this</span><span class="token punctuation">.</span>currValueKey<span class="token punctuation">;</span>
+      <span class="token keyword">var</span> maxLength <span class="token operator">=</span> <span class="token keyword">this</span><span class="token punctuation">.</span>maxLens<span class="token punctuation">[</span>key<span class="token punctuation">]</span> <span class="token operator">?</span> <span class="token keyword">this</span><span class="token punctuation">.</span>maxLens<span class="token punctuation">[</span>key<span class="token punctuation">]</span> <span class="token operator">:</span> <span class="token number">6</span><span class="token punctuation">;</span>
+      <span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token keyword">this</span><span class="token punctuation">.</span>values<span class="token punctuation">[</span>key<span class="token punctuation">]</span><span class="token punctuation">.</span>length <span class="token operator">&lt;</span> maxLength<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">this</span><span class="token punctuation">.</span>values<span class="token punctuation">[</span>key<span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token keyword">this</span><span class="token punctuation">.</span>values<span class="token punctuation">[</span>key<span class="token punctuation">]</span> <span class="token operator">+</span> str<span class="token punctuation">;</span>
+      <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token function">deleteHandler</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      <span class="token keyword">var</span> currValue <span class="token operator">=</span> <span class="token keyword">this</span><span class="token punctuation">.</span>values<span class="token punctuation">[</span><span class="token keyword">this</span><span class="token punctuation">.</span>currValueKey<span class="token punctuation">]</span><span class="token punctuation">;</span>
+      <span class="token keyword">this</span><span class="token punctuation">.</span>values<span class="token punctuation">[</span><span class="token keyword">this</span><span class="token punctuation">.</span>currValueKey<span class="token punctuation">]</span> <span class="token operator">=</span>
+        currValue<span class="token punctuation">.</span>length <span class="token operator">&gt;</span> <span class="token number">0</span>
+          <span class="token operator">?</span> <span class="token function">String</span><span class="token punctuation">(</span>currValue<span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">slice</span><span class="token punctuation">(</span><span class="token number">0</span><span class="token punctuation">,</span> currValue<span class="token punctuation">.</span>length <span class="token operator">-</span> <span class="token number">1</span><span class="token punctuation">)</span>
+          <span class="token operator">:</span> <span class="token string">&quot;&quot;</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span>
+</code></pre></div><h3 id="默认"><a href="#默认" class="header-anchor">#</a> 默认</h3> <div class="language-vue extra-class"><pre class="language-vue"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>template</span><span class="token punctuation">&gt;</span></span>
+   <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>pass-word-input</span>
+      <span class="token attr-name">:value</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>values.value1<span class="token punctuation">&quot;</span></span>
+      <span class="token attr-name">:focused</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>showKeyboard &amp;&amp; currValueKey == <span class="token punctuation">'</span>value1<span class="token punctuation">'</span><span class="token punctuation">&quot;</span></span>
+      <span class="token attr-name">@focus</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>showKeyboardHandler(true, <span class="token punctuation">'</span>value1<span class="token punctuation">'</span>)<span class="token punctuation">&quot;</span></span>
+    <span class="token punctuation">/&gt;</span></span>
+    <span class="token comment">&lt;!-- 只需要一个输入框 --&gt;</span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>number-key-board</span>
+      <span class="token attr-name">:show.sync</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>showKeyboard<span class="token punctuation">&quot;</span></span>
+      <span class="token attr-name">@input</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>inputHandler<span class="token punctuation">&quot;</span></span>
+      <span class="token attr-name">@delete</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>deleteHandler<span class="token punctuation">&quot;</span></span>
+    <span class="token punctuation">/&gt;</span></span>
+ <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>template</span><span class="token punctuation">&gt;</span></span>
+</code></pre></div><h3 id="限制长度"><a href="#限制长度" class="header-anchor">#</a> 限制长度</h3> <div class="language-vue extra-class"><pre class="language-vue"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>template</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>pass-word-input</span>
+      <span class="token attr-name">:value</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>values.value2<span class="token punctuation">&quot;</span></span>
+      <span class="token attr-name">:length</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>4<span class="token punctuation">&quot;</span></span>
+      <span class="token attr-name">:focused</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>showKeyboard &amp;&amp; currValueKey == <span class="token punctuation">'</span>value2<span class="token punctuation">'</span><span class="token punctuation">&quot;</span></span>
+      <span class="token attr-name">@focus</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>showKeyboardHandler(true, <span class="token punctuation">'</span>value2<span class="token punctuation">'</span>)<span class="token punctuation">&quot;</span></span>
+    <span class="token punctuation">/&gt;</span></span>
+      <span class="token comment">&lt;!-- 只需要一个输入框 --&gt;</span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>number-key-board</span>
+      <span class="token attr-name">:show.sync</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>showKeyboard<span class="token punctuation">&quot;</span></span>
+      <span class="token attr-name">@input</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>inputHandler<span class="token punctuation">&quot;</span></span>
+      <span class="token attr-name">@delete</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>deleteHandler<span class="token punctuation">&quot;</span></span>
+    <span class="token punctuation">/&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>template</span><span class="token punctuation">&gt;</span></span>
+
+</code></pre></div><h3 id="格子显示"><a href="#格子显示" class="header-anchor">#</a> 格子显示</h3> <div class="language-vue extra-class"><pre class="language-vue"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>template</span><span class="token punctuation">&gt;</span></span>
+   <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">&gt;</span></span>格子显示<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>pass-word-input</span>
+      <span class="token attr-name">:value</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>values.value3<span class="token punctuation">&quot;</span></span>
+      <span class="token attr-name">gutter</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>10px<span class="token punctuation">&quot;</span></span>
+      <span class="token attr-name">:focused</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>showKeyboard &amp;&amp; currValueKey == <span class="token punctuation">'</span>value3<span class="token punctuation">'</span><span class="token punctuation">&quot;</span></span>
+      <span class="token attr-name">@focus</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>showKeyboardHandler(true, <span class="token punctuation">'</span>value3<span class="token punctuation">'</span>)<span class="token punctuation">&quot;</span></span>
+    <span class="token punctuation">/&gt;</span></span>
+      <span class="token comment">&lt;!-- 只需要一个输入框 --&gt;</span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>number-key-board</span>
+      <span class="token attr-name">:show.sync</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>showKeyboard<span class="token punctuation">&quot;</span></span>
+      <span class="token attr-name">@input</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>inputHandler<span class="token punctuation">&quot;</span></span>
+      <span class="token attr-name">@delete</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>deleteHandler<span class="token punctuation">&quot;</span></span>
+    <span class="token punctuation">/&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>template</span><span class="token punctuation">&gt;</span></span>
+
+</code></pre></div><h3 id="显示明文"><a href="#显示明文" class="header-anchor">#</a> 显示明文</h3> <div class="language-vue extra-class"><pre class="language-vue"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>template</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>pass-word-input</span>
+      <span class="token attr-name">:value</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>values.value3<span class="token punctuation">&quot;</span></span>
+       <span class="token attr-name">:mask</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>false<span class="token punctuation">&quot;</span></span>
+      <span class="token attr-name">:focused</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>showKeyboard &amp;&amp; currValueKey == <span class="token punctuation">'</span>value3<span class="token punctuation">'</span><span class="token punctuation">&quot;</span></span>
+      <span class="token attr-name">@focus</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>showKeyboardHandler(true, <span class="token punctuation">'</span>value3<span class="token punctuation">'</span>)<span class="token punctuation">&quot;</span></span>
+    <span class="token punctuation">/&gt;</span></span>
+      <span class="token comment">&lt;!-- 只需要一个输入框 --&gt;</span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>number-key-board</span>
+      <span class="token attr-name">:show.sync</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>showKeyboard<span class="token punctuation">&quot;</span></span>
+      <span class="token attr-name">@input</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>inputHandler<span class="token punctuation">&quot;</span></span>
+      <span class="token attr-name">@delete</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>deleteHandler<span class="token punctuation">&quot;</span></span>
+    <span class="token punctuation">/&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>template</span><span class="token punctuation">&gt;</span></span>
+
+</code></pre></div></div></div> <div class="iframe" style="width: 380px; margin-left: 5px"><iframe id="iframe" src="https://cn.vuejs.org" width="350" height="600" style="\n          width: 350px;\n          height: 600px;\n          position: fixed;\n          right: 10px;\n          top: 10px;\n        "></iframe></div></div></div><div class="global-ui"></div></div>
+    <script src="/assets/js/app.bc9aeed4.js" defer></script><script src="/assets/js/4.6eb5aea4.js" defer></script><script src="/assets/js/1.5aa26a91.js" defer></script><script src="/assets/js/14.3a2e4105.js" defer></script>
   </body>
 </html>
