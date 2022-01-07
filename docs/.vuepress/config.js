@@ -12,7 +12,8 @@ module.exports = {
         items: [
           { text: 'kyInput', link: '/kyInput/' },
           { text: 'kyKeyBoard', link: '/kyKeyBoard/' },
-          { text: 'kyPasswordInput', link: '/kyPasswordInput/' }
+          { text: 'kyPasswordInput', link: '/kyPasswordInput/' },
+          { text: "kyNumberKeyboard", link: "/kyNumberKeyboard/" }
         ]
       },
       { text: '根事件', link: '/rootEvents/' },
