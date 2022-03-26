@@ -11,5 +11,12 @@
     "docs:build": "vuepress build docs"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@vuepress-reco/vuepress-plugin-extract-code": "^1.0.4",
+    "less": "^4.0.0",
+    "less-loader": "^7.1.0",
+    "vue-highlightjs": "^1.3.3",
+    "vuepress-plugin-code-example": "^1.1.0"
+  }
 }

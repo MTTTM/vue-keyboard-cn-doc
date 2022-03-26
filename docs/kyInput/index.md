@@ -3,6 +3,18 @@ ky-input它（下面都用它替代）的作用是替代原生的html的input或
 原生的input标签已经很好用了，为什么它会出现呢？
 首先要知道这个库，它提供的是自定义键盘的这个功能，如果使用原生的input，在input获取focus时候会触发系统自带的键盘并且无法屏蔽掉。所以自能自己模拟input标签。
 
+
+<codeShow>
+<defaultInput/>
+ <template slot="code">
+
+ <<< @/docs/.vuepress/components/defaultInput.vue
+
+ </template>
+</codeShow>
+
+
+
 ## props
 
 | 参数       | 可选      |说明   | 默认 | 必填 | 
@@ -19,7 +31,7 @@ ky-input它（下面都用它替代）的作用是替代原生的html的input或
 | showFixedInput     | true/false | 是否显示固定在键盘底部的输入框 |false |否 |
 | placeholder     | 字符串 | 内容为空时候的占位字 |-|否|
 | docBodyAutoScroll     | true/false | 是否触发body滚动，让input进入可视区 |true|否 |
-| numberKeyboardProps | 请参考[NumberKeyboard的props](/kyNumberKeyboard/#props)|给NumberKeyboard键盘使用的|{}|否|
+| otherProps | 请参考[NumberKeyboard的props](/kyNumberKeyboard/#props)|给NumberKeyboard键盘使用的|{}|否|
 
 ### props type
 - 这个不仅控制显示对应的键盘，而且限制输入
