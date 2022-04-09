@@ -17,6 +17,7 @@
     "less": "^4.0.0",
     "less-loader": "^7.1.0",
     "vue-highlightjs": "^1.3.3",
+    "vue-keyboard-cn": "1.0.10",
     "vuepress-plugin-code-example": "^1.1.0"
   }
 }

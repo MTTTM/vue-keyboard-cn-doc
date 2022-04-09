@@ -8,8 +8,8 @@ ky-input它（下面都用它替代）的作用是替代原生的html的input或
 <defaultInput/>
  <template slot="code">
 
- <<< @/docs/.vuepress/components/defaultInput.vue
-
+ <<< @/docs/.vuepress/components/inputDefault.vue
+ 
  </template>
 </codeShow>
 

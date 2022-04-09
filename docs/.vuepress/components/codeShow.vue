@@ -1,6 +1,6 @@
 <template>
   <div class="showCode">
-    <div class="showCode-header">
+    <!-- <div class="showCode-header">
       <div
         @click="index = 0"
         :class="['header-item', index == 0 ? 'active' : '']"
@@ -13,12 +13,12 @@
       >
         代码
       </div>
-    </div>
+    </div> -->
     <div class="showCode-body">
-      <div class="body-item" v-show="index === 0">
+      <div class="body-item body-item-demo">
         <slot />
       </div>
-      <div class="body-item" v-show="index === 1">
+      <div class="body-item">
         <!-- <pre>
           <code class="vue">  -->
         <slot name="code" />
@@ -37,24 +37,25 @@ export default {
   },
   created() {
     //主题css，可自选
-    import("highlight.js/styles/paraiso-dark.css");
-    import("highlight.js/lib/index.js").then((hljs) => {
-      hljs.initHighlightingOnLoad();
-    });
-    console.log("this.slots", this.$slots.default);
+    // import("highlight.js/styles/paraiso-dark.css");
+    // import("highlight.js/lib/index.js").then((hljs) => {
+    //   hljs.initHighlightingOnLoad();
+    // });
+    // console.log("this.slots", this.$slots.default);
   },
 };
 </script>
 <style lang="less" scoped>
 .showCode {
-  height: 400px;
   outline: 1px solid #ccc;
+  padding: 5px;
+  margin: 10px 0;
   .showCode-header {
     height: 30px;
     border-bottom: 1px solid #ccc;
     box-sizing: border-box;
     display: flex;
-    align-content: center;
+    align-items: center;
     padding: 0 10px;
     .header-item {
       padding: 0 10px;
@@ -64,12 +65,14 @@ export default {
     }
   }
   .showCode-body {
-    height: 370px;
-    overflow: auto;
     .body-item {
-      height: 370px;
+      max-height: 370px;
       overflow: auto;
     }
+  }
+  .body-item-demo {
+    padding: 5px;
+    height: auto !important;
   }
 }
 </style>

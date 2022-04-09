@@ -1,8 +1,9 @@
+
 module.exports = {
   base: "/vue-keyboard-cn-doc/",
-  plugins: [
-    '@vuepress-reco/extract-code'
-  ],
+  // plugins: [
+  //   '@vuepress-reco/extract-code'
+  // ],
   title: 'vue-key-board-cn',
   description: '手机端输入法模拟插件，中文输入法，英文输入法，数字输入法',
   themeConfig: {
@@ -24,5 +25,6 @@ module.exports = {
     ],
     sidebarDepth: 100,
     sidebar: 'auto'
-  }
+  },
+  sidebarDepth: 2,
 }
