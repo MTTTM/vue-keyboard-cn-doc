@@ -209,3 +209,106 @@ export default {
  
  </template>
 </codeShow>
+
+## 密码输入
+
+### 默认
+
+<codeShow>
+<passwordDefault/>
+ <template slot="code">
+
+ <<< @/docs/.vuepress/components/passwordDefault.vue
+ 
+ </template>
+</codeShow>
+
+### 长度
+
+<codeShow>
+<passwordDefaultLen/>
+ <template slot="code">
+
+ <<< @/docs/.vuepress/components/passwordDefaultLen.vue
+ 
+ </template>
+</codeShow>
+
+### 格子
+
+<codeShow>
+<passwordDefaultGutter/>
+ <template slot="code">
+ 
+ <<< @/docs/.vuepress/components/passwordDefaultGutter.vue
+ 
+ </template>
+</codeShow>
+
+### 明文
+
+<codeShow>
+<passwordDefaultMask/>
+ <template slot="code">
+ 
+ <<< @/docs/.vuepress/components/passwordDefaultMask.vue
+ 
+ </template>
+</codeShow>
+
+## 纯数字键盘
+
+### 默认
+
+<codeShow>
+<numberInput/>
+ <template slot="code">
+ 
+ <<< @/docs/.vuepress/components/numberInput.vue
+ 
+ </template>
+</codeShow>
+
+### 带标题
+
+<codeShow>
+<numberInputTitle/>
+ <template slot="code">
+ 
+ <<< @/docs/.vuepress/components/numberInputTitle.vue
+ 
+ </template>
+</codeShow>
+
+### 自定义
+
+<codeShow>
+<numberInputCus/>
+ <template slot="code">
+ 
+ <<< @/docs/.vuepress/components/numberInputCus.vue
+ 
+ </template>
+</codeShow>
+
+### 身份证
+
+<codeShow>
+<numberInputIDNum/>
+ <template slot="code">
+ 
+ <<< @/docs/.vuepress/components/numberInputIDNum.vue
+ 
+ </template>
+</codeShow>
+
+### 随机位置
+
+<codeShow>
+<numberInputRandom/>
+ <template slot="code">
+ 
+ <<< @/docs/.vuepress/components/numberInputRandom.vue
+ 
+ </template>
+</codeShow>
