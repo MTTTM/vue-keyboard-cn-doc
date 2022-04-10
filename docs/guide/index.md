@@ -312,3 +312,16 @@ export default {
  
  </template>
 </codeShow>
+
+## 键盘配置
+
+### 配置标签tab
+
+<codeShow>
+<keyBoardDefault/>
+ <template slot="code">
+ 
+ <<< @/docs/.vuepress/components/keyBoardDefault.vue
+ 
+ </template>
+</codeShow>

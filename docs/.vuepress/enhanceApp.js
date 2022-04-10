@@ -5,5 +5,6 @@ export default async ({
 }) => {
   console.log("install", install, vueKeyBoardCn)
   Vue.use(install);
+  window.isDEMODOC = true;
 
 }
